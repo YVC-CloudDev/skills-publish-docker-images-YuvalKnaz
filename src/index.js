@@ -3,7 +3,7 @@ const COLS = 10;
 const ROWS = 20;
 const BLOCK_SIZE = 30;
 const PATTERN_SIZE = 5;
-
+// בדבגדבדג
 // Colors for blocks (dev-themed)
 const COLORS = {
   0: "#252526", // Empty
@@ -17,7 +17,12 @@ const COLORS = {
   8: "#000000", // Void (black)
 };
 
-// Tetromino shapes (simplified for easier pattern matching)
+<div class="info-section">
+   <h3>Current Score</h3>
+   <div class="score" id="score">0</div>
+   <h3>High Score</h3>
+   <div class="high-score" id="high-score">0</div>
+</div>
 const SHAPES = [
   [[1]], // Single block
   [[2, 2]], // Horizontal pair
